@@ -37,7 +37,7 @@ class App extends Component {
   // }
 
   render() {
-    const {isLoggedIn} = this.state;
+    // const {isLoggedIn} = this.state;
 
     // let authButton;
     // if (isLoggedIn === true) {
@@ -47,12 +47,13 @@ class App extends Component {
     // }
     return(
       <div>
-        <Welcome greeting="Hello" user="Sivaram"/>
+        {/* <Welcome greeting="Hello" user="Sivaram"/> */}
         {/* {this.renderAuthButton()}         */}
         {/* {authButton} */}
         {/* {isLoggedIn ? <button>Log Out</button> : <button>Log In</button>} */}
-        {isLoggedIn && <button>Log Out</button>}
-        {!isLoggedIn && <button>Log In</button>}
+        {/* {isLoggedIn && <button>Log Out</button>}
+        {!isLoggedIn && <button>Log In</button>} */}
+        <Welcome />
 
       </div>
     )
